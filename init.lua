@@ -26,8 +26,7 @@ local palette = {
 function M.setup()
     y.theme = {
         BufferBg = palette.bg,
-        BufferDirectoryFg = palette.blueDark,
-        BufferFileFg = palette.fg,
+        BufferFg = palette.fg,
         CurLineNr = palette.fg,
         CursorLineBg = palette.grey7,
         DiffAdded = palette.green,
